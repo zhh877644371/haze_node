@@ -4,7 +4,7 @@ var router = express.Router();
 router.get('/', function(req, res, next){
     var data = {
         code: 0,
-        date: {
+        data: {
             name: 'aaa',
             pwd: '123'
         },
